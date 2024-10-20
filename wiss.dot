@@ -1,0 +1,25 @@
+digraph main_program {
+    rankdir = TB;
+    node [shape = box; fontname = "Arial";];
+    
+    // 定义节点
+    start [label = "Start";shape = circle;];
+    init_led [label = "LED_Init()";shape = box;];
+    init_tim2 [label = "TIM2_Init()";shape = box;];
+    main_loop [label = "Main Loop";shape = box;];
+    check_flag [label = "flag_2ms == 1?";shape = diamond;];
+    clear_flag [label = "Clear flag_2ms";shape = box;];
+    task_2ms [label = "Task_2ms()";shape = box;];
+    led_flicker [label = "LEDFlicker(1)";shape = box;];
+    
+    // 定义连线
+    start -> init_led;
+    init_led -> init_tim2;
+    init_tim2 -> main_loop;
+    main_loop -> check_flag;
+    check_flag -> task_2ms [label = "Yes";];
+    check_flag -> main_loop [label = "No";];
+    task_2ms -> clear_flag;
+    clear_flag -> led_flicker;
+    led_flicker -> main_loop;
+}
