@@ -1,5 +1,6 @@
-<img width="200px" src="image\logo.jpg">
+<img width="300px" src="image\logo.jpg">
 
-### **ICasper Docs**
+### **Casper's Docs**
 
-个人学习过程中的笔记
+学海无涯，学无止境！
+记录学习点滴...
