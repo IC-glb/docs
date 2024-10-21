@@ -234,11 +234,36 @@ int main() {
 
 ## 多态实现
 
+```mermaid
+graph TD;
+    A[多态]
+    B[静态]
+    C[动态]
+    D[虚函数]
+    E[函数重载]
 
+    A --> B
+    A --> C
+    C --> D
+    B -->E
+```
 
 
 ## 虚函数
 
+`虚函数`：在类的成员函数前加`virtual`关键字。
 
+```C++
+class Person
+{
+   
+public:
+	virtual void BuyTicket()
+	{
+   
+		cout << "买票-全价" << endl;
+	}
+};
+```
 
 ## 数组
