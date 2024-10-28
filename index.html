@@ -10,6 +10,26 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
   <link rel="icon" href="image\logo.jpg">
+  <link rel="stylesheet" href="//unpkg.com/mermaid/dist/mermaid.min.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/prismjs@1.22.0/themes/prism.css">
+
+  <style>
+    summary {
+      font-size: 1.3em;
+      /* 根据需要调整字体大小 */
+      cursor: pointer;
+      /* 鼠标悬停时改变光标样式 */
+    }
+  </style>
+
+  <style>
+    .mermaid {
+      text-align: center;
+      /* 居中对齐 */
+      margin: 0 auto;
+      /* 使 div 水平居中 */
+    }
+  </style>
   <style type="text/css">
     /* 隐藏头部的目录 */
     #main>ul:nth-child(1) {
@@ -104,7 +124,6 @@
     }
   </style>
   <style type="text/css">
-  
     code[class*="language-"],
     pre[class*="language-"] {
       color: black;
@@ -343,30 +362,71 @@
       name: 'ICasper',
       repo: 'https://github.com/IC-glb',
       coverpage: true,//配置封面
+      count: {
+        countable: true,
+        fontsize: '0.9em',
+        color: 'rgb(90,90,90)',
+        language: 'chinese'
+      },
       // 搜索栏配置
       search: {
         paths: 'auto',
         placeholder: '🔍 输入搜索内容 ',
         noData: '😞 啥也没有! ',
         depth: 6
+      },
+
+      plugins: [
+        function (hook, vm) {
+          hook.doneEach(function () {
+            Prism.highlightAll(); // 手动调用高亮
+          });
+
+          hook.ready(function () {
+            mermaid.initialize({ startOnLoad: false });
+          });
+          hook.doneEach(function () {
+            mermaid.init(undefined, '.mermaid');
+          });
+        }
+      ],
+      markdown: {
+        renderer: {
+          code: function (code, lang) {
+            // 搜索 mermaid 代码
+            // var html = '';
+            // 生成一个 mermaid 图表的容器
+            if (lang === 'mermaid' || code.match(/^sequenceDiagram/) || code.match(/^graph/) || code.match(/^gantt/)) {
+              return '<div class="mermaid">' + code + '</div>';
+            }
+            // 源码自带的 Prism 高亮插件
+            var hl = Prism.highlight(code, Prism.languages[lang] || Prism.languages.markup);
+            // 将图表的容器添加到代码之前
+            return '<pre v-pre data-lang="' + lang + '"><code class="lang-' + lang + '">' + hl + '</code></pre>';
+          }
+        }
       }
+
     };
   </script>
   <!-- 加载Docsify v4和搜索插件 -->
+  <!-- Docsify 和插件 -->
   <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
-  <script src="https://cdn.bootcss.com/docsify/4.5.9/plugins/search.min.js"></script>
-  <!-- 加载复制编程语言插件 -->
+  <script src="//unpkg.com/docsify-count/dist/countable.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
+
+  <!-- Mermaid 和 Prism 插件 -->
+  <script src="https://cdn.jsdelivr.net/npm/prismjs@1.22.0/components/prism-c.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/prismjs@1.22.0/components/prism-cpp.min.js"></script>
+
   <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
-  <script src="prism.js"></script>
-  <script src="https://cyc-1256109796.cos.ap-guangzhou.myqcloud.com/docsify-copy-code.min.js"></script>
-  <script src="https://cyc-1256109796.cos.ap-guangzhou.myqcloud.com/prism-python.min.js"></script>
-  <script src="https://cyc-1256109796.cos.ap-guangzhou.myqcloud.com/prism-java.min.js"></script>
-  <script src="https://cyc-1256109796.cos.ap-guangzhou.myqcloud.com/prism-c.min.js"></script>
-  <script src="https://cyc-1256109796.cos.ap-guangzhou.myqcloud.com/prism-c++.min.js"></script>
-  <script src="https://cyc-1256109796.cos.ap-guangzhou.myqcloud.com/prism-bash.min.js"></script>
-  <script src="https://cyc-1256109796.cos.ap-guangzhou.myqcloud.com/prism-sql.min.js"></script>
-  <script src="https://cyc-1256109796.cos.ap-guangzhou.myqcloud.com/zoom-image.min.js"></script>
-  <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/prismjs@1.22.0/prism.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/prismjs@1.22.0/components/prism-java.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/prismjs@1.22.0/components/prism-python.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/prismjs@1.22.0/components/prism-cpp.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/prismjs@1.22.0/components/prism-c.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/docsify-copy-code/dist/docsify-copy-code.min.js"></script>
+
 </body>
 
 </html>

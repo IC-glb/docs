@@ -1,8 +1,10 @@
 <center><h2>🚀 能量机关识别与预测（2024）</h2></center>
 
 <img src="https://github.com/user-attachments/assets/02e50b4b-ce7c-4ab4-b4f7-c61ccb5c7d16"  style="width: 70%; margin: auto; display: block;" />
+ 
 
 ## 🎉 目录
+
 1. [文件介绍](#🚀文件介绍)
 2. [能量机关识别](#能量机关识别)
     - [1. 构造函数初始化参数](#1-构造函数初始化参数)
@@ -43,6 +45,7 @@
 │   └── src
 │       └── Buff_Prediction.cpp    // 预测的源文件
 ```
+
 <details>
 <summary>功能包介绍</summary>
 serial_device：串口通信功能包
@@ -169,8 +172,7 @@ graph TD;
 <details>
 <summary>ProjectCode</summary>
 
-
-```c++
+```cpp
 
 std::vector<BuffTarget> BuffDetection::Detection(cv::Mat &frame_) {
 
@@ -314,6 +316,7 @@ graph TD;
 2. 计算两个向量的夹角余弦
 3. 反余弦算夹角
 4. 角度范围调整（根据点 pt0.y 和 pt1.y 的相对位置，对角度范围进行调整）
+
 <details>
 <summary>具体代码</summary>
 
@@ -337,6 +340,7 @@ float BuffDetection::getAngle(cv::Point2f pt1, cv::Point2f pt2, cv::Point2f pt0,
     else { return _circleAngle180; }
 }
 ```
+
 </details>
 
 
@@ -568,6 +572,7 @@ graph TD;
 6. 不要将自启动程序改成`Buff_Debug`
 7. 图传模式：`大符C` `小符X`
 8. `神经网络模型训练看看就好,效果还行,实际迭代了几十个版本`
+
 <details>
 <summary>模型训练代码</summary>
 
@@ -721,6 +726,7 @@ if __name__ == "__main__":
 ## 发展
 
 1. `数据预处理部分可以改成卡尔曼`
+
 <details>
 <summary>代码</summary>
 
