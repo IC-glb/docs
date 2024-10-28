@@ -104,7 +104,7 @@ graph TD;
   <source src="../image/bcarSimulink.mp4" type="video/mp4">
 </video>
 
-``` C
+``` Cpp
 
 void LQRController_info_get()
 {

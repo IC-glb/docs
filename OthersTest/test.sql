@@ -1,9 +1,9 @@
--- Active: 1729599991608@@127.0.0.1@3306@company
+-- Active: 1730116078257@@127.0.0.1@3306
 
 SHOW DATABASES;
 
-USE tcp_test;
+USE tec_h;
 
 SELECT COUNT(*) FROM customer;
 
-SELECT * FROM customer;
+SELECT MAX(custkey) FROM customer ;
