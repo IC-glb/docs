@@ -22,7 +22,7 @@
 <center><h4>项目背景</h4></center>
  
 
-<img src="https://github.com/IC-glb/docs/blob/main/image/buff.jpg"  style="width: 70%; margin: auto; display: block;" />
+<img src="https://github.com/user-attachments/assets/1dfd8e70-83cd-4dee-bb37-62e264a9d88d"  style="width: 70%; margin: auto; display: block;" />
  
 
 <br><br><br> 
@@ -199,11 +199,11 @@ graph TD;
 
 ```
 
- <img src="https://github.com/IC-glb/docs/blob/main/image/balanceCar.jpg"  style="width: 80%; margin: auto; display: block;" />
+ <img src="https://github.com/user-attachments/assets/bbe5cb91-b8f5-45f2-95ae-c08ca3c59382"  style="width: 80%; margin: auto; display: block;" />
 
 <br><br><br>
  
-<img src="https://github.com/IC-glb/docs/blob/main/image/bcar.jpg"  style="width: 50%; margin: auto; display: block;" />
+<img src="https://github.com/user-attachments/assets/407cc14b-72ee-4f50-a551-35a083d06282"  style="width: 50%; margin: auto; display: block;" />
 
 <br><br>
 
@@ -211,15 +211,15 @@ graph TD;
 
 <div style="text-align: center;">
   <video width="30%" controls>
-    <source src="https://github.com/IC-glb/docs/blob/main/image/bcarroll.mp4" type="video/mp4">
+    <source src="https://github.com/user-attachments/assets/4e4c8499-a651-46ce-809e-15bb1e2cfc27" type="video/mp4">
   </video>
   <video width="30%" controls>
-    <source src="https://github.com/IC-glb/docs/blob/main/image/bcarroll2.mp4" type="video/mp4">
+    <source src="https://github.com/user-attachments/assets/6984fcd9-d346-4805-b16c-97c43d06a380" type="video/mp4">
   </video>
 </div>
   <br><br>
   <video width="100%" controls muted>
-    <source src="https://github.com/IC-glb/docs/blob/main/image/bcarSimulink.mp4" type="video/mp4">
+    <source src="https://github.com/user-attachments/assets/07277aec-e856-4f2b-8ea5-e3c27fd75679" type="video/mp4">
   </video>
 
 
