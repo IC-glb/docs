@@ -267,16 +267,17 @@ void LQRController_info_get()
 
 <center><h4>结果可视化</h4></center>
 
-<img src="https://github.com/IC-glb/docs/blob/main/image/shumo1.jpg"  style="width: 50%; margin: auto; display: block;" />
+<img src="https://github.com/user-attachments/assets/222bcdf0-b72a-4f7d-b60c-eed941f4b53e"  style="width: 50%; margin: auto; display: block;" />
+ 
 
-<img src="https://github.com/IC-glb/docs/blob/main/image/shumo2.jpg"  style="width: 50%; margin: auto; display: block;" />
-
+<img src="https://github.com/user-attachments/assets/f8a066b5-dcdc-41a9-9e6b-3b28d57c52ad"  style="width: 50%; margin: auto; display: block;" />
+ 
 <br>
 
 !>时间有限，不细写
+ 
 
-
-<img src="https://github.com/IC-glb/docs/blob/main/image/shumo3.jpg"  style="width: 50%; margin: auto; display: block;" />
+<img src="https://github.com/user-attachments/assets/811b64d4-6809-44d2-bec2-3c7ac5ed4fd0"  style="width: 50%; margin: auto; display: block;" />
 
 
  
