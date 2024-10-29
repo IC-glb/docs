@@ -22,7 +22,7 @@
 <center><h4>项目背景</h4></center>
  
 
-<img src="./image/buff.jpg"  style="width: 70%; margin: auto; display: block;" />
+<img src="https://github.com/IC-glb/docs/blob/main/image/buff.jpg"  style="width: 70%; margin: auto; display: block;" />
 
 
 <br><br><br> 
@@ -174,7 +174,7 @@ graph TD;
         Your browser does not support the video tag.
     </video>
     <video width="50%" height="50%" controls >
-        <source src="./image/步兵_连续5次激活大能量机关.mp4" type="video/mp4">
+        <source src="https://github.com/IC-glb/docs/blob/main/image/步兵_连续5次激活大能量机关.mp4" type="video/mp4">
     </video>
 </div>
 
@@ -199,11 +199,11 @@ graph TD;
 
 ```
 
- <img src="./image/balanceCar.jpg"  style="width: 80%; margin: auto; display: block;" />
+ <img src="https://github.com/IC-glb/docs/blob/main/image/balanceCar.jpg"  style="width: 80%; margin: auto; display: block;" />
 
 <br><br><br>
  
-<img src="./image/bcar.jpg"  style="width: 50%; margin: auto; display: block;" />
+<img src="https://github.com/IC-glb/docs/blob/main/image/bcar.jpg"  style="width: 50%; margin: auto; display: block;" />
 
 <br><br>
 
@@ -211,15 +211,15 @@ graph TD;
 
 <div style="text-align: center;">
   <video width="30%" controls>
-    <source src="./image/bcarroll.mp4" type="video/mp4">
+    <source src="https://github.com/IC-glb/docs/blob/main/image/bcarroll.mp4" type="video/mp4">
   </video>
   <video width="30%" controls>
-    <source src="./image/bcarroll2.mp4" type="video/mp4">
+    <source src="https://github.com/IC-glb/docs/blob/main/image/bcarroll2.mp4" type="video/mp4">
   </video>
 </div>
   <br><br>
   <video width="100%" controls muted>
-    <source src="./image/bcarSimulink.mp4" type="video/mp4">
+    <source src="https://github.com/IC-glb/docs/blob/main/image/bcarSimulink.mp4" type="video/mp4">
   </video>
 
 <br><br>
