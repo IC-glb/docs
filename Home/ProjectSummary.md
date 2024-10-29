@@ -274,7 +274,7 @@ void LQRController_info_get()
 <br>
 !> 时间有限，不细写
 
-<img src="https://github.com/IC-glb/docs/blob/main/image/shumo3.png"  style="width: 50%; margin: auto; display: block;" />
+<img src="https://github.com/IC-glb/docs/blob/main/image/shumo3.jpg"  style="width: 50%; margin: auto; display: block;" />
 
 
  
