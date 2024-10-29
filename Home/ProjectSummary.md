@@ -272,7 +272,9 @@ void LQRController_info_get()
 <img src="https://github.com/IC-glb/docs/blob/main/image/shumo2.jpg"  style="width: 50%; margin: auto; display: block;" />
 
 <br>
-!> 时间有限，不细写
+
+!>时间有限，不细写
+
 
 <img src="https://github.com/IC-glb/docs/blob/main/image/shumo3.jpg"  style="width: 50%; margin: auto; display: block;" />
 
