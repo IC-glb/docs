@@ -23,7 +23,7 @@
  
 
 <img src="https://github.com/IC-glb/docs/blob/main/image/buff.jpg"  style="width: 70%; margin: auto; display: block;" />
-
+ 
 
 <br><br><br> 
 
@@ -174,11 +174,11 @@ graph TD;
         Your browser does not support the video tag.
     </video>
     <video width="50%" height="50%" controls >
-        <source src="https://github.com/IC-glb/docs/blob/main/image/步兵_连续5次激活大能量机关.mp4" type="video/mp4">
+        <source src="https://github.com/IC-glb/docs/blob/main/image/buff5times.mp4" type="video/mp4">
     </video>
 </div>
 
-
+ 
 
 <center><h3>轮腿机器人</h3></center>
 
@@ -222,7 +222,9 @@ graph TD;
     <source src="https://github.com/IC-glb/docs/blob/main/image/bcarSimulink.mp4" type="video/mp4">
   </video>
 
+
 <br><br>
+
 
 ```c++
 void LQRController_info_get()
@@ -243,6 +245,7 @@ void LQRController_info_get()
 
 ```
  
+
 <br>
 <center><h3>基于多元线性规划的种植策略问题求解 Matlab</h3></center>
 
@@ -267,16 +270,16 @@ void LQRController_info_get()
 
 <center><h4>结果可视化</h4></center>
 
-<img src="https://github.com/IC-glb/docs/blob/main/image/shumo1.jpg"  style="width: 50%; margin: auto; display: block;" />
+<!-- <img src="https://github.com/IC-glb/docs/blob/main/image/shumo1.jpg"  style="width: 50%; margin: auto; display: block;" />
 
-<img src="https://github.com/IC-glb/docs/blob/main/image/shumo2.jpg"  style="width: 50%; margin: auto; display: block;" />
+<img src="https://github.com/IC-glb/docs/blob/main/image/shumo2.jpg"  style="width: 50%; margin: auto; display: block;" /> -->
 
 <br>
 
 !>时间有限，不细写
 
 
-<img src="https://github.com/IC-glb/docs/blob/main/image/shumo3.jpg"  style="width: 50%; margin: auto; display: block;" />
+<!-- <img src="https://github.com/IC-glb/docs/blob/main/image/shumo3.jpg"  style="width: 50%; margin: auto; display: block;" /> -->
 
 
  
