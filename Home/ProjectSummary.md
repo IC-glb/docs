@@ -1,4 +1,4 @@
-<center><h1>Project Summary</h1></center>
+<center><h1>核心项目</h1></center>
 
 大学三年的项目经历是有`机器人识别与跟踪预测视觉算法`、`轮腿机器人`、`基于多元线性规划的种植策略问题求解`、`基于深度学习的细胞分类与分割`以及`前端与数据库结合的企业资源规划系统`
 
@@ -22,7 +22,7 @@
 <center><h4>项目背景</h4></center>
  
 
-<img src="../image/buff.jpg"  style="width: 70%; margin: auto; display: block;" />
+<img src="./image/buff.jpg"  style="width: 70%; margin: auto; display: block;" />
 
 
 <br><br><br> 
@@ -174,7 +174,7 @@ graph TD;
         Your browser does not support the video tag.
     </video>
     <video width="50%" height="50%" controls >
-        <source src="../image/步兵_连续5次激活大能量机关.mp4" type="video/mp4">
+        <source src="./image/步兵_连续5次激活大能量机关.mp4" type="video/mp4">
     </video>
 </div>
 
@@ -199,25 +199,27 @@ graph TD;
 
 ```
 
- <img src="../image/balanceCar.jpg"  style="width: 80%; margin: auto; display: block;" />
+ <img src="./image/balanceCar.jpg"  style="width: 80%; margin: auto; display: block;" />
 
 <br><br><br>
  
-<img src="../image/bcar.jpg"  style="width: 50%; margin: auto; display: block;" />
+<img src="./image/bcar.jpg"  style="width: 50%; margin: auto; display: block;" />
 
 <br><br>
 
+!>因为开发过程不是再调参的路上就是在调参的路上，基本很少拍视频来记录。
+
 <div style="text-align: center;">
   <video width="30%" controls>
-    <source src="../image/bcarroll.mp4" type="video/mp4">
+    <source src="./image/bcarroll.mp4" type="video/mp4">
   </video>
   <video width="30%" controls>
-    <source src="../image/bcarroll2.mp4" type="video/mp4">
+    <source src="./image/bcarroll2.mp4" type="video/mp4">
   </video>
 </div>
   <br><br>
   <video width="100%" controls muted>
-    <source src="../image/bcarSimulink.mp4" type="video/mp4">
+    <source src="./image/bcarSimulink.mp4" type="video/mp4">
   </video>
 
 <br><br>
