@@ -11,7 +11,7 @@
 
 - [轮腿机器人 Matlab&simulink](#轮腿机器人)
 
-~~- [基于多元线性规划的种植策略问题求解 Matlab](#基于多元线性规划的种植策略问题求解)~~
+- [基于多元线性规划的种植策略问题求解 Matlab](#基于多元线性规划的种植策略问题求解)
 
 ---
 
@@ -174,7 +174,7 @@ graph TD;
         Your browser does not support the video tag.
     </video>
     <video width="50%" height="50%" controls >
-        <source src="https://github.com/IC-glb/docs/blob/main/image/buff5times.mp4" type="video/mp4">
+        <source src="https://raw.githubusercontent.com/IC-glb/docs/master/image/buff5times.mp4" type="video/mp4">
     </video>
 </div>
 
