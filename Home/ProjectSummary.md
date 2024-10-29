@@ -243,5 +243,39 @@ void LQRController_info_get()
 
 ```
  
+<br>
+<center><h3>基于多元线性规划的种植策略问题求解 Matlab</h3></center>
+
+>纯粹的使用Matlab建立模型与求解问题。
+
+!>从0开始搭建的，非开源
+
+<br>
+<center><h4>问题背景</h4></center>
+
+由于耕地资源的有限，农户更倾向于选择经济效益高、风险程度低的种植策略。本
+文在综合考虑地块类型与农作物生长规律等约束条件的同时还考虑到各类不确定性因
+素对农作物种植决策的影响，来确定农作物种植面积、最大化收益种植策略，最终得到
+最优种植策略。
+
+
+<br>
+<center><h4>问题解决</h4></center>
+
+使用多元线性规划求解（类似魔改版的贪心算法）
+
+
+<center><h4>结果可视化</h4></center>
+
+<img src="https://github.com/IC-glb/docs/blob/main/image/shumo1.jpg"  style="width: 50%; margin: auto; display: block;" />
+
+<img src="https://github.com/IC-glb/docs/blob/main/image/shumo2.jpg"  style="width: 50%; margin: auto; display: block;" />
+
+<br>
+!> 时间有限，不细写
+
+<img src="https://github.com/IC-glb/docs/blob/main/image/shumo3.jpg"  style="width: 50%; margin: auto; display: block;" />
+
+
  
  
