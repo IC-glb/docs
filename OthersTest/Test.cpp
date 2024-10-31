@@ -1,45 +1,15 @@
-# include <iostream>
+#include <iostream>
+#include <cstdlib>
 
-using namespace std;
-
-class Animal
+/**
+ * @brief   通过malloc()和free()来演示C++中的动态内存分配
+ * @note    malloc()成功时返回一个void指针，否则返回NULL
+ * @return  0
+ */
+int main()
 {
-    public:
-        virtual void Sound(){
-            cout<<"Animal makes a sound"<<endl;
-        }
-};
 
-class Dog : public Animal
-{
-    public:
-    void Sound() override{
-        std::cout << "Dog barks" << std::endl;
-    }
-};
-
-class Cat : public Animal {
-public:
-    void Sound() override {
-        std::cout << "Cat meows" << std::endl;
-    }
-};
-
-int main(int argc, char const *argv[])
-{
-    Animal* animal;
-    Animal an;
-    Dog dog;
-    Cat cat;
-
-
-    an.Sound();
-
-    animal = &dog;
-    animal->Sound();  // 输出 "Dog barks"
-
-    animal = &cat;
-    animal->Sound();  // 输出 "Cat meows"
-
-    return 0;
+    int *p = (int *)malloc(sizeof(int));
+    *p = 10;
+    std::cout << *p << std::endl;
 }

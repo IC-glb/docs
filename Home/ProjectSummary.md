@@ -169,12 +169,13 @@ graph TD;
 <center><h5>项目可视化</h5></center>
 
 <div style="text-align: center;">
-    <video width="50%" height="50%" controls>
+    <video width="50%" height="50%" controls muted>
         <source src="https://github.com/user-attachments/assets/6f0700aa-6c86-446e-a70a-2b5157fbbb08" type="video/mp4">
         Your browser does not support the video tag.
     </video>
-    <video width="50%" height="50%" controls >
-        <source src="https://raw.githubusercontent.com/IC-glb/docs/master/image/buff5times.mp4" type="video/mp4">
+    <video width="50%" height="50%" controls muted>
+        <!-- <source src="https://raw.githubusercontent.com/IC-glb/docs/master/image/buff5times.mp4" type="video/mp4"> -->
+        <source src="../image/buff5times.mp4" type="video/mp4">
     </video>
 </div>
 
@@ -219,7 +220,8 @@ graph TD;
 </div>
   <br><br>
   <video width="100%" controls muted>
-    <source src="https://github.com/user-attachments/assets/07277aec-e856-4f2b-8ea5-e3c27fd75679" type="video/mp4">
+    <!-- <source src="https://github.com/user-attachments/assets/07277aec-e856-4f2b-8ea5-e3c27fd75679" type="video/mp4"> -->
+    <source src="../image/bcarSimulink.mp4" type="video/mp4">
   </video>
 
 
@@ -272,6 +274,7 @@ void LQRController_info_get()
 
 <img src="https://github.com/user-attachments/assets/222bcdf0-b72a-4f7d-b60c-eed941f4b53e"  style="width: 50%; margin: auto; display: block;" />
  
+<br>
 
 <img src="https://github.com/user-attachments/assets/f8a066b5-dcdc-41a9-9e6b-3b28d57c52ad"  style="width: 50%; margin: auto; display: block;" />
  
@@ -283,5 +286,12 @@ void LQRController_info_get()
 <img src="https://github.com/user-attachments/assets/811b64d4-6809-44d2-bec2-3c7ac5ed4fd0"  style="width: 50%; margin: auto; display: block;" />
 
 
- 
+<details>
+<summary></summary>
+
+1. 实习生工作是怎么样
+2. 出勤制度
+3. 补贴
+4. 
+</details>
  
